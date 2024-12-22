@@ -15,8 +15,38 @@ Proyek ini menganalisis dataset penyewaan sepeda untuk mendapatkan wawasan berha
 - Matplotlib / Seaborn
 - Jupyter Notebook
 
+## Library
+- matplotlib
+- numpy
+- pandas
+- seaborn
+- streamlit
+
 ## Struktur Proyek
 - **data/**: Berisi dataset mentah dan yang sudah diolah.
 - **notebooks/**: Notebook analisis data utama.
 - **output/**: Grafik atau hasil analisis yang dihasilkan.
+
+# Dicoding Collection Dashboard ✨
+
+## Setup Environment - Anaconda
+```
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
+```
+
+## Setup Environment - Shell/Terminal
+```
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
+
+## Run steamlit app
+```
+streamlit run dashboard.py
+```
 
